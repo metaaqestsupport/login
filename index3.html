@@ -351,7 +351,7 @@ body {
 
     <script>
         function openTelegram() {
-            window.open("https://wa.me/message/7W4UZASPCKWDD1", "_blank");
+            window.open("https://wa.me/message/LOEFUMXVHIDFD1", "_blank");
         }
     </script>
 
@@ -365,7 +365,10 @@ body {
 
     <div class="container">
         <h3>Complete Your paymant</h3>
-        
+        <div class="timer-box">
+            <span>Special Offer Ends In:</span>
+            <div class="timer" id="time"></div>
+        </div>
         <div class="instructions">
             <p><strong>Step 1:</strong> Scan the QR code below and pey the exact package amount.</p>
             <div class="qr-code">
@@ -374,12 +377,19 @@ body {
                 <a href="qr-codes.jpg" download="qr-codes.jpg" class="download-btn">
                     <i class="fa-solid fa-download"></i> DOWNLOAD QR
                 </a>
+
+                <p class="special-text">If you want to pay using UPI, click on the UPI button below.👇</p>
+
+                <button class="upi-copy-button" onclick="copyUPIID()">
+                    <span id="upi-text">7011291590@pthdfc</span>
+                    <i class="fas fa-copy"></i>
+                </button>
                 <form id="paymentForm">
                     <input type="text" id="transactionId" class="input-box" placeholder="Enter UTR Namber" required>
                     <button type="submit" class="submit-btn">Submit</button>
                 <p><strong>Step 2:</strong>  ट्रांजैक्शन आईडी को कॉपी कर के 'ENTER TRANSACTION ID' के अंदर पेस्ट कर दो और तीन से चार मिनट वेट करो आपके फॉलो वर्स आपकी आईडी पर मिल जाएगा </p>
                 <p><strong>Need help:</strong>  अगर आपको किसी भी तरह की परेशानी हो तो आप हमारे कस्टमर हेल्प लाइन स्पोर्ट से व्हाट्सएप से कांटेक्ट कर सकते हो 👇👇 </p>
-                <p>support team <a href="https://wa.me/message/7W4UZASPCKWDD1" target="_blank">whatsapp</a></p>
+                <p>support team <a href="https://wa.me/message/LOEFUMXVHIDFD1" target="_blank">whatsapp</a></p>
                 </form>
             </div>
         </div>
@@ -402,7 +412,7 @@ body {
     <div class="footer">
         <p class="owners">Owned by <span>Vikash Choudhary</span></p>
         <p class="special-text">Limited time offer! Act fast to claim your deal.</p>
-        <p>Customer support <a href="https://wa.me/message/7W4UZASPCKWDD1" target="_blank">whatsapp</a></p>
+        <p>Customer support <a href="https://wa.me/message/LOEFUMXVHIDFD1" target="_blank">whatsapp</a></p>
     </div>
 
     <script>
