@@ -89,9 +89,9 @@
         .recharge-btn {
             width: 100%;
             padding: 10px;
-            background: linear-gradient(324deg, #0064e0, #92bdf3);
-            box-shadow: 0 0 10px rgb(145, 154, 255);
-            border: 2px solid #0064e0;
+            background: linear-gradient(324deg, #ffbf00, #fc00ff);
+            box-shadow: 0 0 10px rgba(145, 154, 255, 0);
+            border: 2px solid #ee0183;
             color: #fff;
             border: none;
             border-radius: 50px;
@@ -100,8 +100,8 @@
         }
 
         .recharge-btn:hover {
-            background: linear-gradient(34deg, #92bdf3, #0064e0);
-            box-shadow: 0 0 10px rgba(106, 128, 255, 0.8);
+            background: linear-gradient(34deg, #fc00ff, #ffbf00);
+            box-shadow: 0 0 10px rgba(228, 106, 255, 0.164);
         }
 /* Header Styles */
 .header {
@@ -130,7 +130,7 @@
 }
 
 .product-box {
-  background: #dce5f9;
+  background: white;
   border-radius: 30px;
   padding: 20px;
   box-shadow: 1px 2px 10px 10px rgba(101, 173, 255, 0.1);
@@ -342,11 +342,10 @@ body {
             z-index: 1000;
         }
     </style>
-
 </head>
 
-<div id="overlay">get blue tick</div>
-    <audio id="welcomeAudio" src="blueticksound.mp3"></audio>
+<div id="overlay">Get Followars</div>
+    <audio id="welcomeAudio" src="followerssound.mp3"></audio>
 
     <script>
         document.getElementById("overlay").addEventListener("click", function () {
@@ -358,7 +357,7 @@ body {
     </script>
 
 <div id="preloader">
-  <img src="verifigiff.gif" alt="Loading...">
+  <img src="followersgiff.gif" alt="Loading...">
 </div>
     
 <!-- Header -->
@@ -368,33 +367,50 @@ body {
     <div class="profile-icon"><i class="fas fa-user-circle"></i></div>
 </div>
 
-<section class="offer-section">
-  <img src="sankranthi.png" alt="Offer Banner" class="banner">
+<section class="offer-section"> 
+  <img src="fbbaner.jpg" alt="Offer Banner" class="banner">
 </section>
 
        
 
 
-    <!-- Product Section -->
-  <section class="product">
-    <div class="product-box">
-      <div class="offer-icon">
-        <i class="fas fa-tag"></i> Special Offer
+<section class="product">
+  <div class="product-box">
+    <div class="offer-icon">
+      <i class="fas fa-tag"></i> Special Offer
+    </div>
+    <img src="followers.png" alt="Varification Tick" class="product-image">
+    <h3 class="product-name">50K Followers</h3>
+    <p><strong>Time:</strong> instantly</p>
+    <p><strong>Quality:</strong> non drop </p>
+    <div class="price">
+      <span class="original-price">₹1650</span>
+      <span class="discounted-price">₹499</span>
+    </div>
+    <button class="recharge-btn" onclick="handleFollowers()">Get Followars</button>
       </div>
-      <img src="fbverify.png" alt="Varification Tick" class="product-image">
-      <h3 class="product-name">Instagram Varification Tick</h3>
-      <p><strong>Time:</strong> instantly</p>
-      <p><strong>Validity:</strong> parmanent</p>
-      <p><strong>Extra benefit:</strong> your 10x grow</p>
-      <div class="price">
-        <span class="original-price">₹1299</span>
-        <span class="discounted-price">₹699</span>
-      </div>
-      <button class="recharge-btn" onclick="handleFollowers()">Get blue tik</button>
-        </div>
 
-    
-  </section>
+  
+</section>
+
+<section class="product">
+  <div class="product-box">
+    <div class="offer-icon">
+      <i class="fas fa-tag"></i> Special Offer
+    </div>
+    <img src="followers.png" alt="Varification Tick" class="product-image">
+    <h3 class="product-name">100K Followers</h3>
+    <p><strong>Time:</strong> instantly</p>
+    <p><strong>Quality:</strong> non drop </p>
+    <div class="price">
+      <span class="original-price">₹2999</span>
+      <span class="discounted-price">₹999</span>
+    </div>
+    <button class="recharge-btn" onclick="handleFollowers()">Get Followars</button>
+      </div>
+
+  
+</section>
 
         <div class="footer">
             <p class="owners">Owned by <span>Pargat Singh</span></p>
