@@ -341,6 +341,27 @@ body {
             cursor: pointer;
             z-index: 1000;
         }
+
+        .unique-credit-footer {
+            text-align: center;
+            font-size: 10px;
+            color: #888;
+            opacity: 0.6;
+            transition: opacity 0.3s ease-in-out;
+            font-family: Arial, sans-serif;
+            margin-top: -34px; /* Thoda upar adjust karne ke liye */
+        }
+
+        .unique-credit-footer:hover {
+            opacity: 1;
+            color: #333;
+        }
+
+        .unique-credit-footer a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: 600;
+        }
     </style>
 
 </head>
@@ -401,6 +422,18 @@ body {
             <p class="special-text">This offer is for a limited time so don't waste your time and select your deal on time</p>
             <p>Customer support <a href="https://wa.me/message/LOEFUMXVHIDFD1" target="_blank">whatsapp</a></p>
           </div>
+
+    <!-- Unique Credit Footer -->
+        <p class="unique-credit-footer">
+            Designed by <a href="javascript:void(0);" onclick="openWhatsApp()">Viki Saran</a>
+        </p>
+    </div>
+
+    <script>
+        function openWhatsApp() {
+            window.open('https://wa.me/6283867114145', '_blank');
+        }
+    </script>
 
 
         <script>
